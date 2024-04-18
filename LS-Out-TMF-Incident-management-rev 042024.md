@@ -5,10 +5,10 @@ The IETF Network Management OPerations Working Group (NMOP WG) [1] was recently 
 *	Issues related to deployment/usage of YANG topology modules (e.g., to model a Digital Map)
 *	Consider/plan an approach for updating RFC 3535-bis (collecting updated operator requirements for IETF network management solutions)
 
-The NMOP WG would like to inform the TMF that the Working Group is currently considering the following documents for adoption:
+The NMOP WG would like to inform the TMF that the Working Group is currently considering the following documents for adoption as the basis for continued work and development towards consensus documents that may be published as RFCs at some time in the future:
 
 *	A terminology document for anomaly and incident management [2]
-*	A document on network incident management [3]
+*	A YANG model for network incident management [3]
 
 We are planning a formal call for adoption for these two documents in the coming weeks.
 
