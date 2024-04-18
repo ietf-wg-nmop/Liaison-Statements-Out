@@ -1,4 +1,4 @@
-The IETF Network Management OPerations Working Group ((NMOP WG) [1] was recently chartered by the IETF to focus on network management operations. The current topics of focus for the NMOP WG are as follows:
+The IETF Network Management OPerations Working Group (NMOP WG) [1] was recently chartered by the IETF to focus on network management operations. The current topics of focus for the NMOP WG are as follows:
 
 * NETCONF/YANG Push integration with Apache Kafka & time series databases
 *	Anomaly detection and incident management
