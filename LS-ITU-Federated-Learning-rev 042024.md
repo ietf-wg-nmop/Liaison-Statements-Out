@@ -11,9 +11,13 @@ Following is the schedule of upcoming meetings of the IETF [4]
 We look forward to participation from the ITU on the NMOP WG mailing list and meetings from those in ITU interested in the work being done by the WG.
  
 NMOP Chairs & Area Director
+
 Mohamed Boucadair, Benoît Claise, Mahesh Jethanandani
  
 [1] https://datatracker.ietf.org/group/nmop/about/
+
 [2] https://www.ietf.org/mailman/listinfo/nmop
+
 [3] nmop-chairs@ietf.org
+
 [4] https://www.ietf.org/meeting/upcoming/
