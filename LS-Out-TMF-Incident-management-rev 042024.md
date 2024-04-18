@@ -20,12 +20,12 @@ To that aim, the NMOP WG would appreciate if the TMF can provide a copy of "TMF7
 We look forward fruitful collaboration between TMF and NMOP WG.
 
 Note that the NMOP WG encourages the use of NMOP WG mailing list [5] as the most effective and expedient way of exchanging information, answering questions, and clarifying concerns.
-Also, the NMOP WG is welcoming presentations from TMF on the these matters. Request for presentations can be sent to the NMOP Chairs [5].
+Also, the NMOP WG is welcoming presentations from TMF on these matters. Requests for presentations can be sent to the NMOP Chairs [5].
 
-Following is the schedule of upcoming meetings of the IETF [6]:
+Following is the schedule of upcoming IETF meetings [6]:
 
-* 20 July 2024 - 26 July 2024, Vancouver Canada
-* 02 Nov 2024 - 08 Nov 2024, Dublin Ireland
+* 20 July 2024 - 26 July 2024, Vancouver Canada (with online participation)
+* 02 Nov 2024 - 08 Nov 2024, Dublin Ireland (with online participation)
 
 
 NMOP Chairs & Area Director
