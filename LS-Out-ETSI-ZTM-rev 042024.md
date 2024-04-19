@@ -3,8 +3,8 @@ of a new normative specification work on Network Digital Twin "ETSI GS ZSM018 Ne
 Digital Twin for enhanced zero-touch network and service management".
 
 For your information, the IETF has chartered a new Working Group (WG) on Network Management
-OPerations (NMOP WG) [1]. One of the current NMOP WG topics is is investigating isssues
-related to deployment/usage of YANG topology modules in order to model a Digital Map.
+OPerations (NMOP WG) [1]. One of the current NMOP WG topics is investigating isssues
+related to the deployment and usage of YANG topology modules in order to model a Digital Map.
 
 Concretely, the WG is discussing "Modeling the Digital Map based on RFC 8345: Sharing Experience
 and Perspectives” [2] which defines the concept of Digital Map and explains its connection to the 
