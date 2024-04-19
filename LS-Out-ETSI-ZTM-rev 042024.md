@@ -72,7 +72,7 @@ In addition, the ongoing effort leverages existing tools and data models, such a
         
   * Available data models can be retrieved from [5].
 
-The NMOP WG believes that existing data models can be leveraged in the context of NDT, beyond the IETF.
+The NMOP WG believes that existing data models can be leveraged in the context of NDT beyond the IETF.
 
 The NMOP WG encourages the use of NMOP WG mailing list [6] as the most effective and expedient
 way of exchanging information, answering questions, and progressing any work. The WG will consider
