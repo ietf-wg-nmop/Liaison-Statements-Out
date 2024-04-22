@@ -3,10 +3,10 @@ of a new normative specification work on Network Digital Twin "ETSI GS ZSM018 Ne
 Digital Twin for enhanced zero-touch network and service management".
 
 For your information, the IETF has chartered a new Working Group (WG) on Network Management
-OPerations (NMOP WG) [2]. One of the current NMOP WG topics is investigating isssues
+OPerations (NMOP WG) [2]. One of the current NMOP WG topics is investigating issues
 related to the deployment and usage of YANG topology modules in order to model a Digital Map.
 
-Concretely, the WG is discussing "Modeling the Digital Map based on RFC 8345: Sharing Experience
+Specifically, the WG is discussing "Modeling the Digital Map based on RFC 8345: Sharing Experience
 and Perspectives” [3] which defines the concept of Digital Map and explains its connection to the 
 Network Digital Twin (NDT). Also, the document identifies a set of candidate issues in RFC 8345 to
 meet NDT needed. These issues will be fixed as part of the NMOP WG activities.
@@ -25,13 +25,10 @@ In addition, the ongoing effort leverages existing tools and data models, such a
     + Data models are also instrumental in the automation of network management, and they can provide
     closed-loop control for adaptive and deterministic service creation, delivery, and maintenance.
 
-* YANG is a transport-independent data modeling language: Many of the YANG modules are used to
-  exchange data between NETCONF/RESTCONF clients and servers ([RFC 6241](https://datatracker.ietf.org/doc/html/rfc6241), [RFC 8040](https://datatracker.ietf.org/doc/html/rfc8040)). However, YANG can
-  thus be used independently of NETCONF/RESTCONF. 
+* YANG is a data modeling language that is independent of both the encoding and the transport that is used. Many of the YANG modules are used to
+  exchange data between NETCONF/RESTCONF clients and servers ([RFC 6241](https://datatracker.ietf.org/doc/html/rfc6241), [RFC 8040](https://datatracker.ietf.org/doc/html/rfc8040)). However, YANG can be used by encodings other than XML/JSON and protocols other than NETCONF/RESTCONF.
 
-* The IETF defined a 
-
-*	The IETF specified a comprehensive list of models which cover various layers and components. For example: 
+*	The IETF has specified a comprehensive list of models which cover various layers and components. For example:
 
  	 + Service-level abstractions to represent how a service is exposed by a network to a customer:
 
