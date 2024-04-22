@@ -29,10 +29,13 @@ In addition, the ongoing effort leverages existing tools and data models, such a
   exchange data between NETCONF/RESTCONF clients and servers ([RFC 6241](https://datatracker.ietf.org/doc/html/rfc6241), [RFC 8040](https://datatracker.ietf.org/doc/html/rfc8040)). However, YANG can
   thus be used independently of NETCONF/RESTCONF. 
 
+* The IETF defined a 
+
 *	The IETF specified a comprehensive list of models which cover various layers and components. For example: 
 
- 	 + Service-level abstractions to represent how a service is exposed by a network to a customer
+ 	 + Service-level abstractions to represent how a service is exposed by a network to a customer:
 
+       - [RFC 8309](https://datatracker.ietf.org/doc/html/rfc8309): Service Models Explained
        - [RFC 8299](https://datatracker.ietf.org/doc/html/rfc8299): The L3VPN Service Model
        - [RFC 8466](https://datatracker.ietf.org/doc/html/rfc8466): The L2VPN Service Model
          
