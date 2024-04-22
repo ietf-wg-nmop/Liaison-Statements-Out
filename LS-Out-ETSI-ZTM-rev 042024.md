@@ -13,7 +13,7 @@ meet NDT needed. These issues will be fixed as part of the NMOP WG activities.
 
 The Digital Map effort leverages the NDT architecture defined in the IRTF “Network Digital Twin: Concepts and
 Reference Architecture” [4] specification which also provides an overview of the NDT terms and
-concepts of Network Digital Twin (NDT).
+concepts.
 
 In addition, the ongoing effort leverages existing tools and data models, such as (but not limited to):
 
