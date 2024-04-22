@@ -1,23 +1,23 @@
-We would like to thank the ETSI ISG ZSM for informing us you about the initiation
+We would like to thank the ETSI ISG ZSM for informing us [1] about the initiation
 of a new normative specification work on Network Digital Twin "ETSI GS ZSM018 Network
 Digital Twin for enhanced zero-touch network and service management".
 
 For your information, the IETF has chartered a new Working Group (WG) on Network Management
-OPerations (NMOP WG) [1]. One of the current NMOP WG topics is investigating isssues
+OPerations (NMOP WG) [2]. One of the current NMOP WG topics is investigating isssues
 related to the deployment and usage of YANG topology modules in order to model a Digital Map.
 
 Concretely, the WG is discussing "Modeling the Digital Map based on RFC 8345: Sharing Experience
-and Perspectives” [2] which defines the concept of Digital Map and explains its connection to the 
+and Perspectives” [3] which defines the concept of Digital Map and explains its connection to the 
 Network Digital Twin (NDT). Also, the document identifies a set of candidate issues in RFC 8345 to
 meet NDT needed. These issues will be fixed as part of the NMOP WG activities.
 
 The Digital Map effort adheres to the NDT architecture defined in the IRTF “Network Digital Twin: Concepts and
-Reference Architecture” [3] specification which also provides an overview of the NDT terms and
+Reference Architecture” [4] specification which also provides an overview of the NDT terms and
 concepts of Network Digital Twin (NDT).
 
 In addition, the ongoing effort leverages existing tools and data models, such as (but not limited to):
 
-* A Framework for Automating Service and Network Management with YANG [4] describes a framework
+* A Framework for Automating Service and Network Management with YANG [5] describes a framework
   for service and network management automation that takes advantage of YANG modeling technologies.
 
     + This framework is drawn irrespective of the origin of a data model; thus, it can accommodate YANG
@@ -70,17 +70,17 @@ In addition, the ongoing effort leverages existing tools and data models, such a
       - RFC 8519: defines a YANG module for managing Access Control Lists.
       - …
         
-  * Available data models can be retrieved from [5].
+  * Available data models can be retrieved from [6].
 
 The NMOP WG believes that existing data models can be leveraged in the context of NDT beyond the IETF.
 
-The NMOP WG encourages the use of NMOP WG mailing list [6] as the most effective and expedient
+The NMOP WG encourages the use of NMOP WG mailing list [7] as the most effective and expedient
 way of exchanging information, answering questions, and progressing any work. The WG will consider
 presentation requests from the ETSI ISG ZSM that describe data modeling issues that you may identify,
 including, but not limited to, when integrating and consuming existing data models. Such issues
-can also be shared during formal WG meetings. Requests for presentations can be sent to the NMOP Chairs [7].
+can also be shared during formal WG meetings. Requests for presentations can be sent to the NMOP Chairs [8].
 
-Following is the schedule of upcoming IETF meetings [8]:
+Following is the schedule of upcoming IETF meetings [9]:
 
 * 20 July 2024 - 26 July 2024, Vancouver Canada
 * 02 Nov 2024 - 08 Nov 2024, Dublin Ireland
@@ -90,12 +90,13 @@ NMOP Chairs & Area Director
 Mohamed Boucadair, Benoît Claise, Mahesh Jethanandani
 
 
-* [1] https://datatracker.ietf.org/group/nmop/about/
-* [2] https://datatracker.ietf.org/doc/draft-havel-nmop-digital-map/
-* [3] https://datatracker.ietf.org/doc/draft-irtf-nmrg-network-digital-twin-arch/
-* [4] https://datatracker.ietf.org/doc/html/rfc8969
-* [5] https://www.yangcatalog.org/yang-search
-* [6] https://www.ietf.org/mailman/listinfo/nmop
-* [7] nmop-chairs@ietf.org
-* [8] https://www.ietf.org/meeting/upcoming/
+* [1] https://datatracker.ietf.org/liaison/1914/ 
+* [2] https://datatracker.ietf.org/group/nmop/about/
+* [3] https://datatracker.ietf.org/doc/draft-havel-nmop-digital-map/
+* [4] https://datatracker.ietf.org/doc/draft-irtf-nmrg-network-digital-twin-arch/
+* [5] https://datatracker.ietf.org/doc/html/rfc8969
+* [6] https://www.yangcatalog.org/yang-search
+* [7] https://www.ietf.org/mailman/listinfo/nmop
+* [8] nmop-chairs@ietf.org
+* [9] https://www.ietf.org/meeting/upcoming/
 * RFCs cited in the LS can be retrieved from https://datatracker.ietf.org/
