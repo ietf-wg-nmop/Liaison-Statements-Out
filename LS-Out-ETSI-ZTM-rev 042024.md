@@ -73,6 +73,7 @@ In addition, the ongoing effort leverages existing tools and data models, such a
   * Available data models can be retrieved from [6].
 
 The NMOP WG believes that existing data models can be leveraged in the context of NDT beyond the IETF.
+Concretely, the Digital Map is a key foundation for building the NDT, independent of the applications that will use this NDT.
 
 The NMOP WG encourages the use of NMOP WG mailing list [7] as the most effective and expedient
 way of exchanging information, answering questions, and progressing any work. The WG will consider
