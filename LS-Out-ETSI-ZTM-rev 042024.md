@@ -17,7 +17,7 @@ concepts.
 
 In addition, the ongoing effort leverages existing tools and data models, such as (but not limited to):
 
-* A Framework for Automating Service and Network Management with YANG [5] describes a framework
+* A "Framework for Automating Service and Network Management with YANG" [5] describes a framework
   for service and network management automation that takes advantage of YANG modeling technologies.
 
     + This framework is drawn irrespective of the origin of a data model; thus, it can accommodate YANG
