@@ -11,7 +11,7 @@ and Perspectives” [3] which defines the concept of Digital Map and explains it
 Network Digital Twin (NDT). Also, the document identifies a set of candidate issues in RFC 8345 to
 meet NDT needed. These issues will be fixed as part of the NMOP WG activities.
 
-The Digital Map effort adheres to the NDT architecture defined in the IRTF “Network Digital Twin: Concepts and
+The Digital Map effort leverages the NDT architecture defined in the IRTF “Network Digital Twin: Concepts and
 Reference Architecture” [4] specification which also provides an overview of the NDT terms and
 concepts of Network Digital Twin (NDT).
 
