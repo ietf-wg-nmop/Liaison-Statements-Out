@@ -3,7 +3,7 @@ of a new normative specification work on Network Digital Twin "ETSI GS ZSM018 Ne
 Digital Twin for enhanced zero-touch network and service management".
 
 For your information, the IETF has chartered a new Working Group (WG) on Network Management
-OPerations (NMOP WG) [2]. One of the current NMOP WG topics is investigating isssues
+Operations (NMOP WG) [2]. One of the current NMOP WG topics is investigating issues
 related to the deployment and usage of YANG topology modules in order to model a Digital Map.
 
 Concretely, the WG is discussing "Modeling the Digital Map based on RFC 8345: Sharing Experience
@@ -26,10 +26,7 @@ In addition, the ongoing effort leverages existing tools and data models, such a
     closed-loop control for adaptive and deterministic service creation, delivery, and maintenance.
 
 * YANG is a transport-independent data modeling language: Many of the YANG modules are used to
-  exchange data between NETCONF/RESTCONF clients and servers ([RFC 6241](https://datatracker.ietf.org/doc/html/rfc6241), [RFC 8040](https://datatracker.ietf.org/doc/html/rfc8040)). However, YANG can
-  thus be used independently of NETCONF/RESTCONF. 
-
-* The IETF defined a 
+  exchange data between NETCONF/RESTCONF clients and servers ([RFC 6241](https://datatracker.ietf.org/doc/html/rfc6241), [RFC 8040](https://datatracker.ietf.org/doc/html/rfc8040)). However, YANG can be used independently of NETCONF/RESTCONF. 
 
 *	The IETF specified a comprehensive list of models which cover various layers and components. For example: 
 
@@ -52,7 +49,7 @@ In addition, the ongoing effort leverages existing tools and data models, such a
        - [RFC 9291](https://datatracker.ietf.org/doc/html/rfc9291): The L2VPN Network Model (L2NM) provides a network-centric view of L2VPN services within a network.
        - [RFC 9408](https://datatracker.ietf.org/doc/html/rfc9408): The Service Access Point (SAP) model defines a YANG data model for representing an abstract view
          of the provider network topology that contains the points from which its services can be attached
-         (e.g., basic connectivity, VPN, network slices).
+         (e.g., basic connectivity, VPN, Network Slices).
 
    + Sample device models:
      
