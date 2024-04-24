@@ -3,7 +3,7 @@ The IETF Network Management OPerations Working Group (NMOP WG) [1] was recently 
 * NETCONF/YANG Push integration with Apache Kafka & time series databases
 *	Anomaly detection and incident management
 *	Issues related to deployment/usage of YANG topology modules (e.g., to model a Digital Map)
-*	Consider/plan an approach for updating RFC 3535-bis (collecting updated operator requirements for IETF network management solutions)
+*	Consider/plan an approach for RFC 3535-next (i.e., collecting updated operator requirements for IETF network management solutions)
 
 The NMOP WG would like to inform the TMF that the Working Group is currently considering the following documents for adoption as the basis for continued work and development towards consensus documents that may be published as RFCs at some time in the future:
 
