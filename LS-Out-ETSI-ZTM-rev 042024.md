@@ -49,7 +49,7 @@ In addition, the ongoing effort leverages existing tools and data models, such a
        - [RFC 9291](https://datatracker.ietf.org/doc/html/rfc9291): The L2VPN Network Model (L2NM) provides a network-centric view of L2VPN services within a network.
        - [RFC 9408](https://datatracker.ietf.org/doc/html/rfc9408): The Service Access Point (SAP) model defines a YANG data model for representing an abstract view
          of the provider network topology that contains the points from which its services can be attached
-         (e.g., basic connectivity, VPN, network slices).
+         (e.g., basic connectivity, VPN, Network Slices).
 
    + Sample device models:
      
