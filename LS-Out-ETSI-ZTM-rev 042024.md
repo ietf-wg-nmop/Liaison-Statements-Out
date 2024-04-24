@@ -9,7 +9,7 @@ related to the deployment and usage of YANG topology modules in order to model a
 Specifically, the WG is discussing "Modeling the Digital Map based on RFC 8345: Sharing Experience
 and Perspectives” [3] which defines the concept of Digital Map and explains its connection to the 
 Network Digital Twin (NDT). Also, the document identifies a set of candidate issues in RFC 8345 to
-meet NDT needed. These issues will be fixed as part of the NMOP WG activities.
+meet NDT needs. These issues will be fixed as part of the NMOP WG activities.
 
 The Digital Map effort leverages the NDT architecture defined in the IRTF “Network Digital Twin: Concepts and
 Reference Architecture” [4] specification which also provides an overview of the NDT terms and
@@ -17,7 +17,7 @@ concepts.
 
 In addition, the ongoing effort leverages existing tools and data models, such as (but not limited to):
 
-* A "Framework for Automating Service and Network Management with YANG" [5] describes a framework
+* A "Framework for Automating Service and Network Management with YANG" [5] which describes a framework
   for service and network management automation that takes advantage of YANG modeling technologies.
 
     + This framework is drawn irrespective of the origin of a data model; thus, it can accommodate YANG
@@ -26,11 +26,11 @@ In addition, the ongoing effort leverages existing tools and data models, such a
     closed-loop control for adaptive and deterministic service creation, delivery, and maintenance.
 
 * YANG is a data modeling language that is independent of both the encoding and the transport that is used. Many of the YANG modules are used to
-  exchange data between NETCONF/RESTCONF clients and servers ([RFC 6241](https://datatracker.ietf.org/doc/html/rfc6241), [RFC 8040](https://datatracker.ietf.org/doc/html/rfc8040)). However, YANG can be used by encodings other than XML/JSON and protocols other than NETCONF/RESTCONF.
+  exchange data between NETCONF/RESTCONF clients and servers ([RFC 6241](https://datatracker.ietf.org/doc/html/rfc6241), [RFC 8040](https://datatracker.ietf.org/doc/html/rfc8040)). However, YANG can be used by encodings other than XML/JSON and protocols other than NETCONF/RESTCONF. For example, YANG can be used to define abstract data structures per [RFC8791](https://datatracker.ietf.org/doc/html/rfc8791).
 
 *	The IETF has specified a comprehensive list of models which cover various layers and components. For example:
 
- 	 + Service-level abstractions to represent how a service is exposed by a network to a customer:
+ 	 + Service-level abstractions to represent how a service is exposed by a network to a customer or an application:
 
        - [RFC 8309](https://datatracker.ietf.org/doc/html/rfc8309): Service Models Explained
        - [RFC 8299](https://datatracker.ietf.org/doc/html/rfc8299): The L3VPN Service Model
@@ -41,33 +41,31 @@ In addition, the ongoing effort leverages existing tools and data models, such a
      
        - [RFC 8345](https://datatracker.ietf.org/doc/html/rfc8345): The Network Topologies Model defines a base model for network topology
          and inventories. Network topology data includes link, node, and terminate-point resources.
-       - [RFC 8795](https://datatracker.ietf.org/doc/html/rfc8795): The TE Topology Model defines a YANG data model for representing and manipulating TE topologies.
+       - [RFC 8795](https://datatracker.ietf.org/doc/html/rfc8795): The Traffic Engineering (TE) Topology Model defines a YANG data model for representing and manipulating TE topologies.
        - [RFC 8346](https://datatracker.ietf.org/doc/html/rfc8346): The Layer 3 Topology Model defines a YANG data model for representing and manipulating Layer 3 topologies.
        - [RFC 8944](https://datatracker.ietf.org/doc/html/rfc8944): The Layer 2 Topology Model defines a YANG data model for representing and manipulating Layer 2 topologies.
-       - [RFC 8675](https://datatracker.ietf.org/doc/html/rfc8675): defines a collection of YANG identities used as interface types for tunnel interfaces.
+       - [RFC 8675](https://datatracker.ietf.org/doc/html/rfc8675): The Tunnel Interface Types Model defines a collection of YANG identities used as interface types for tunnel interfaces.
        - [RFC 9182](https://datatracker.ietf.org/doc/html/rfc9182): The L3VPN Network Model (L3NM) provides a network-centric view of L3VPN services within a network.
        - [RFC 9291](https://datatracker.ietf.org/doc/html/rfc9291): The L2VPN Network Model (L2NM) provides a network-centric view of L2VPN services within a network.
-       - [RFC 9408](https://datatracker.ietf.org/doc/html/rfc9408): The Service Access Point (SAP) model defines a YANG data model for representing an abstract view
-         of the provider network topology that contains the points from which its services can be attached
-         (e.g., basic connectivity, VPN, Network Slices).
+       - [RFC 9408](https://datatracker.ietf.org/doc/html/rfc9408): The Service Attachment Point (SAP) Model defines a YANG data model for representing an abstract view
+         of the provider network topology that contains the points from which its services can be attached (e.g., basic connectivity, VPN, Network Slices) or to retrieve the points where the services are being delivered to customers (including peer networks).
 
    + Sample device models:
      
       - [RFC 8530](https://datatracker.ietf.org/doc/html/rfc8530): The Logical Network Element Model defines a logical network element model that
-        can be used to manage the logical resource partitioning that may be present on a network
-        device.
+        can be used to manage the logical resource partitioning that may be present on a network device.
       - [RFC 8529](https://datatracker.ietf.org/doc/html/rfc8529): The Network Instance Model defines a network instance module. This module can
         be used to manage the virtual resource partitioning that may be present on a network device.
-      - [RFC 8348](https://datatracker.ietf.org/doc/html/rfc8348): defines a YANG module for the management of hardware.
-      - [RFC 7317](https://datatracker.ietf.org/doc/html/rfc7317): defines the "ietf-system" YANG module that provides many features such as
+      - [RFC 8348](https://datatracker.ietf.org/doc/html/rfc8348): The Hardware Management Model defines a YANG module for the management of hardware.
+      - [RFC 7317](https://datatracker.ietf.org/doc/html/rfc7317): The System Management Model defines the "ietf-system" YANG module that provides many features such as
         the configuration and the monitoring of system or system control operations
         (e.g., shutdown, restart, and setting time) identification.
-      - [RFC 8341](https://datatracker.ietf.org/doc/html/rfc8341): defines a network configuration access control YANG module.
-      - [RFC 7224](https://datatracker.ietf.org/doc/html/rfc7224): defines a YANG module for interface type definitions.
-      - [RFC 8343](https://datatracker.ietf.org/doc/html/rfc8343): defines a YANG module for the management of network interfaces.
-      - [RFC 8349](https://datatracker.ietf.org/doc/html/rfc8349): defines a YANG module for routing management.
-      - [RFC 8512](https://datatracker.ietf.org/doc/html/rfc8512): defines a YANG module for NAT management.
-      - [RFC 8519](https://datatracker.ietf.org/doc/html/rfc8519): defines a YANG module for managing Access Control Lists.
+      - [RFC 8341](https://datatracker.ietf.org/doc/html/rfc8341): The Network Configuration Access Control Model defines a network configuration access control YANG module.
+      - [RFC 7224](https://datatracker.ietf.org/doc/html/rfc7224): The Interface Type Model defines a YANG module for interface type definitions.
+      - [RFC 8343](https://datatracker.ietf.org/doc/html/rfc8343): The Interface Management Model defines a YANG module for the management of network interfaces.
+      - [RFC 8349](https://datatracker.ietf.org/doc/html/rfc8349): The Routing Management Model defines a YANG module for routing management.
+      - [RFC 8512](https://datatracker.ietf.org/doc/html/rfc8512): The Network Address Translation (NAT) and Network Prefix Translation (NPT) Model defines a YANG module for NAT management.
+      - [RFC 8519](https://datatracker.ietf.org/doc/html/rfc8519): The Network Access Control Lists (ACLs) Model defines a YANG module for managing ACLs.
       - …
         
   * Available data models can be retrieved from [6].
@@ -84,6 +82,7 @@ can also be shared during formal WG meetings. Requests for presentations can be 
 
 Following is the schedule of upcoming IETF meetings [9]:
 
+* 04 June 2024, (tentative) Online interim meeting on Digital Map
 * 20 July 2024 - 26 July 2024, Vancouver Canada
 * 02 Nov 2024 - 08 Nov 2024, Dublin Ireland
 
