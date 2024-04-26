@@ -82,7 +82,7 @@ can also be shared during formal WG meetings. Requests for presentations can be 
 
 Following is the schedule of upcoming IETF meetings [9]:
 
-* 04 June 2024, (tentative) Online interim meeting on Digital Map
+* 04 June 2024, Online interim meeting on Digital Map
 * 20 July 2024 - 26 July 2024, Vancouver Canada
 * 02 Nov 2024 - 08 Nov 2024, Dublin Ireland
 
