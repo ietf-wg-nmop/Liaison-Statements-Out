@@ -25,7 +25,7 @@ NMOP Chairs
 Mohamed Boucadair & Benoît Claise
 
 
-[1] [https://datatracker.ietf.org/group/nmop/about/](https://datatracker.ietf.org/doc/draft-ietf-nmop-yang-message-broker-integration/)
+[1] [https://datatracker.ietf.org/group/nmop/about/](https://datatracker.ietf.org/group/nmop/about/)
 
 [2] [https://datatracker.ietf.org/doc/draft-ietf-nmop-yang-message-broker-integration/](https://datatracker.ietf.org/doc/draft-ietf-nmop-yang-message-broker-integration/)
 
