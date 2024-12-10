@@ -5,21 +5,19 @@ The IETF Network Management OPerations Working Group (NMOP WG) [1] was chartered
 *	Issues related to deployment/usage of YANG topology modules
 *	Consider/plan an approach for RFC 3535-next (i.e., collecting updated operator requirements for IETF network management solutions)
 
-The NMOP WG would like to inform the BBF that the Working Group is developping the following document as the basis for continued work and development towards a consensus document that may be published as RFC at some time in the future:
+The NMOP WG would like to inform the BBF that the Working Group is developing the following document as the basis for continued work and development towards a consensus document that may be published as RFC at some time in the future:
 
 *	An Architecture for YANG-Push to Message Broker Integration [2]
 
 The NMOP WG believes that this work might be relevant to the ongoing "WT-508: Broadband Network Data Collection (BNDC)" and would like to coordinate ongoing efforts in both the IETF and BBF.
 Such coordination is meant to ensure that produced specifications are complementary and soften overlapping areas (if any).
 
-To that aim, the NMOP WG would appreciate if the BBF can provide a copy of WT-508 specification that can be made available to the IETF participants.
-
 We look forward fruitful collaboration between BBF and NMOP WG.
 
 Note that the NMOP WG encourages the use of NMOP WG mailing list [3] as the most effective and expedient way of exchanging information, answering questions, and clarifying concerns.
 Also, the NMOP WG is welcoming presentations from BBF on these matters. Requests for presentations can be sent to the NMOP Chairs (emailto: nmop-chairs@ietf.org).
 
-The schedule of upcoming IETF meetings can be foun at [4].
+The schedule of upcoming IETF meetings can be found at [4].
 
 
 NMOP Chairs
