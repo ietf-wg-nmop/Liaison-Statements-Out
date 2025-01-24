@@ -4,10 +4,10 @@ we are pleased to inform you that the WG is planning to issue a WG Last Call for
 *	Some Key Terms for Network Fault and Problem Management [3]
 
 The terms defined in this document are principally intended for
-   consistent use within the IETF. Where similar concepts are described
-   in other bodies, an attempt has been made to harmonize with those
+   **consistent use within the IETF**. Where similar concepts are described
+   in other SDOs, an attempt has been made to harmonize with those
    other descriptions. However, there is care needed where terms are not used
-   consistently between bodies or where terms are applied outside the
+   consistently between SDOs or where terms are applied outside the
    network layer.
 
 The NMOP WG believes that this work might be relevant to the TMF and would welcome comments.
