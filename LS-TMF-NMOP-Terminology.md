@@ -21,6 +21,9 @@ Mohamed Boucadair & Benoît Claise
 
 
 [1] https://datatracker.ietf.org/liaison/1921/
+
 [2] https://datatracker.ietf.org/group/nmop/about/
+
 [3] https://datatracker.ietf.org/doc/draft-ietf-nmop-terminology/
+
 [4] https://www.ietf.org/mailman/listinfo/nmop
