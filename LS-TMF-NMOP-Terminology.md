@@ -1,5 +1,5 @@
 As a follow-up to the LS [1] sent by the IETF Network Management OPerations Working Group (NMOP WG) [2] to TMF,
-we are pleased to inform you that the WG is planning to issue a WG Last Call for the following document: 
+we are pleased to inform you that the WG is planning to issue a WG Last Call for the following document by end of the week of 27/01/2025: 
 
 *	Some Key Terms for Network Fault and Problem Management [3]
 
