@@ -10,7 +10,7 @@ The terms defined in this document are principally intended for
    consistently between SDOs or where terms are applied outside the
    network layer.
 
-The NMOP WG believes that this work might be relevant to the TMF and would welcome comments.
+The NMOP WG believes that this work might be relevant to the TMF and would welcome comments (preferrably during the 2-week WG Last Call period).
 
 Note that the NMOP WG encourages the use of NMOP WG mailing list [5] as the most effective and expedient way of exchanging information, answering questions, and clarifying concerns.
 
